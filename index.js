@@ -5,9 +5,9 @@ const { MongoClient, ObjectId } = require("mongodb");
 const dotenv = require("dotenv").config();
 const URL = process.env.DB;
 
-const DB_NAME = "movie_db";
+const DB_NAME = "movies_db";
 
-const COLLECTION_NAME = "movies";
+const COLLECTION_NAME = "movie";
 app.use(
   cors({
     origin: "*",
