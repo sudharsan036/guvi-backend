@@ -5,9 +5,9 @@ const { MongoClient, ObjectId } = require("mongodb");
 const dotenv = require("dotenv").config();
 const URL = process.env.DB;
 
-const DB_NAME = "movies_db";
+const DB_NAME = "movie_db";
 
-const COLLECTION_NAME = "movie";
+const COLLECTION_NAME = "movies";
 app.use(
   cors({
     origin: "*",
@@ -174,4 +174,8 @@ app.post("/movie/book-movie", async (req, res) => {
   // "2" < 0 ->
 });
 
-app.listen(3000);
+const port = 3001;  // or whatever port you prefer
+app.listen(port, () => {
+  console.log(`Server running on port ${port}`);
+});
+
