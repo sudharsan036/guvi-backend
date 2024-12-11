@@ -1,0 +1,91 @@
+{
+  "id": "6704bed708b5c5629eb8661u",
+  "image": "https://assets-in.bmscdn.com/iedb/movies/images/website/poster/large/sattam-en-kayil-et00412489-1726743894.jpg",
+  "title": "Sattam En Kayil",
+  "director": "Chachi",
+  "description": "Gowtham hides a body in his car after an accident, but when he's arrested for drunk driving, the car is taken to the police station, unnoticed. This sets off a series of twists and turns that complicate his situation. How does he overcome this increasingly dire predicament?",
+  "year": 2024,
+  "genre": "Action,Drama,Thriller",
+  "shows": {
+    "2024-10-15": [
+      {
+        "time": "07:00 AM",
+        "seats": 88,
+        "id": "show_20241015_1",
+        "bookings": [
+          {
+            "name": "Sanjai Kannan G",
+            "email": "sanjaikannang@gmail.com",
+            "phoneNumber": 9345725595,
+            "seats": 12
+          }
+        ]
+      },
+      {
+        "time": "10:00 AM",
+        "seats": 50,
+        "id": "show_20241015_2"
+      }
+    ],
+    "2024-10-16": [
+      {
+        "time": "03:00 PM",
+        "seats": 130,
+        "id": "show_20241016_1"
+      },
+      {
+        "time": "06:00 PM",
+        "seats": 60,
+        "id": "show_20241016_2"
+      }
+    ],
+    "2024-10-17": [
+      {
+        "time": "10:00 PM",
+        "seats": 130,
+        "id": "show_20241017_1"
+      },
+      {
+        "time": "01:00 PM",
+        "seats": 60,
+        "id": "show_20241017_2"
+      }
+    ],
+    "2024-10-18": [
+      {
+        "time": "07:00 PM",
+        "seats": 130,
+        "id": "show_20241018_1"
+      },
+      {
+        "time": "11:00 PM",
+        "seats": 60,
+        "id": "show_20241018_2"
+      }
+    ],
+    "2024-10-19": [
+      {
+        "time": "04:00 PM",
+        "seats": 130,
+        "id": "show_20241019_1"
+      },
+      {
+        "time": "07:00 PM",
+        "seats": 60,
+        "id": "show_20241019_2"
+      }
+    ],
+    "2024-10-20": [
+      {
+        "time": "02:00 PM",
+        "seats": 130,
+        "id": "show_20241020_1"
+      },
+      {
+        "time": "05:00 PM",
+        "seats": 60,
+        "id": "show_20241020_2"
+      }
+    ]
+  }
+}

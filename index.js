@@ -53,6 +53,7 @@ app.get("/movie/:id", async (req, res) => {
     let dbcollection = await db.collection(COLLECTION_NAME);
 
     let movie = await dbcollection.findOne({ _id: new ObjectId(id) });
+    
 
     (await client).close();
 
@@ -174,8 +175,13 @@ app.post("/movie/book-movie", async (req, res) => {
   // "2" < 0 ->
 });
 
-const port = 3001;  // or whatever port you prefer
-app.listen(port, () => {
-  console.log(`Server running on port ${port}`);
+app.listen(8976, () => {
+  console.log("Server is running on port 8976");
 });
+
+
+
+
+
+
 
