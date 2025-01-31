@@ -5,6 +5,7 @@ const { MongoClient, ObjectId } = require("mongodb");
 const dotenv = require("dotenv").config();
 const URL = process.env.DB;
 
+
 const DB_NAME = "movie_db";
 
 const COLLECTION_NAME = "movies";
@@ -51,6 +52,7 @@ app.get("/movie/:id", async (req, res) => {
 
     // Step 3. Select the Collection
     let dbcollection = await db.collection(COLLECTION_NAME);
+    
 
     let movie = await dbcollection.findOne({ _id: new ObjectId(id) });
     
@@ -175,8 +177,9 @@ app.post("/movie/book-movie", async (req, res) => {
   // "2" < 0 ->
 });
 
-app.listen(8976, () => {
-  console.log("Server is running on port 8976");
+
+app.listen(8977, () => {
+  console.log("Server is running on port 8977");
 });
 
 

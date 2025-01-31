@@ -1,9 +1,10 @@
+[
 {
-  "id": "6704bed708b5c5629eb8661u",
-  "image": "https://assets-in.bmscdn.com/iedb/movies/images/website/poster/large/sattam-en-kayil-et00412489-1726743894.jpg",
-  "title": "Sattam En Kayil",
-  "director": "Chachi",
-  "description": "Gowtham hides a body in his car after an accident, but when he's arrested for drunk driving, the car is taken to the police station, unnoticed. This sets off a series of twists and turns that complicate his situation. How does he overcome this increasingly dire predicament?",
+  "_id": "7356s562j8638s6387q7287h",
+  "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC41LzEwICAyMzFLIFZvdGVz,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00356724-zfrlyckdfz-portrait.jpg",
+  "title": "pushpa 2",
+  "director": "sukumar",
+  "description": "continues on pushpa 1",
   "year": 2024,
   "genre": "Action,Drama,Thriller",
   "shows": {
@@ -89,3 +90,44 @@
     ]
   }
 }
+]
+
+
+
+
+
+
+
+
+
+
+
+_id
+675bfa1921459e67bd494d9f
+image
+"https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarg…"
+title
+"thunivu"
+director
+"H.vinoth"
+description
+"gangster film"
+year
+2024
+genre
+"action"
+
+shows
+Object
+
+2024-12-15
+Array (1)
+
+0
+Object
+time
+"7:00 AM"
+seats
+123
+id
+"shows_20241215_1"
